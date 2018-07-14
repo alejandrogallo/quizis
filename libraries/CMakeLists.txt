@@ -1,3 +1,6 @@
+find_package(Curses REQUIRED)
+message("CURSES_INCLUDE_DIR "${CURSES_INCLUDE_DIR})
+
 include(ExternalProject)
 ExternalProject_Add(jsoncpp_project
 GIT_REPOSITORY    https://github.com/open-source-parsers/jsoncpp

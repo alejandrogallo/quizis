@@ -4,19 +4,30 @@
 #include <json/json.h>
 #include <string>
 #include <experimental/random>
+#include <ncurses.h>
 
 void
 loop(Json::Value &root) {
+  initscr();
+  curs_set(0);
   bool stop(false);
-  char key;
+  int key;
+  int counter;
   while (! stop) {
+    move(0,0);
     unsigned int index(
       std::experimental::randint(0, (int)root.size()-1)
     );
-    std::cout << root[index]["word"] << std::endl;
-    std::cin >> key;
-    if (key == 'i') {
-      std::cout << root[index]["value"] << std::endl;
+    //std::string wordName(root[index]["word"]);
+    //printw("%s", root[index]["word"]);
+    deleteln();
+    printw("%s %d ", root[index]["word"].asCString(), key);
+    move(2,0);
+    key = getch();
+    deleteln();
+    move(2,0);
+    if (key == 105) {
+      printw("%s", root[index]["value"].asCString());
     }
   }
 
@@ -47,15 +58,7 @@ int main(int argc, char *argv[])
     exit(1);
   }
 
-  for (unsigned int i(0) ; i < root.size() ; i++) {
-    Json::Value word(root[i]);
-    std::cout << word["word"] << std::endl;
-  }
-
   loop(root);
-
-
-//Json::Reader reader;
 
   return 0;
 }

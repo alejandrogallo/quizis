@@ -5,11 +5,12 @@ add_executable(
   main.cxx
 )
 
-target_link_libraries(quizis jsoncpp)
+target_link_libraries(quizis jsoncpp curses)
 
 target_include_directories(
   quizis
   PUBLIC
+  ${CURSES_INCLUDE_DIR}
   ${CMAKE_BINARY_DIR}/include
 )
 
