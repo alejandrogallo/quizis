@@ -7,6 +7,12 @@
 #include <ncurses.h>
 
 void
+quit_loop(){
+  refresh();
+  exit(0);
+}
+
+void
 loop(Json::Value &root) {
   initscr();
   curs_set(0);
@@ -26,12 +32,14 @@ loop(Json::Value &root) {
     key = getch();
     deleteln();
     move(2,0);
-    if (key == 105) {
+    if (key == (int)'i') {
       printw("%s", root[index]["value"].asCString());
+    } else if (key == (int)'q') {
+      quit_loop();
     }
   }
-
 }
+
 
 int main(int argc, char *argv[])
 {
