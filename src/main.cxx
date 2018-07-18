@@ -16,27 +16,42 @@ void
 loop(Json::Value &root) {
   initscr();
   curs_set(0);
-  bool stop(false);
   int key;
-  int counter;
-  while (! stop) {
-    move(0,0);
+  int knownCounter(0);
+  int unknownCounter(0);
+  while (true) {
     unsigned int index(
       std::experimental::randint(0, (int)root.size()-1)
     );
     //std::string wordName(root[index]["word"]);
-    //printw("%s", root[index]["word"]);
-    deleteln();
-    printw("%s %d ", root[index]["word"].asCString(), key);
+
+    move(0,0);
+    clrtoeol();
+    printw("%s", root[index]["word"].asCString(), key);
+
+    move(1,0);
+    printw("\tK:%d\tU:%d", knownCounter, unknownCounter);
+
     move(2,0);
     key = getch();
-    deleteln();
     move(2,0);
-    if (key == (int)'i') {
+    clrtoeol();
+
+    if (key == (int)'j') {
+      move(2,0);
       printw("%s", root[index]["value"].asCString());
-    } else if (key == (int)'q') {
+      key = (int)'l';
+    }
+    if (key == (int)'h') {
+      unknownCounter++;
+    }
+    if (key == (int)'l') {
+      knownCounter++;
+    }
+    if (key == (int)'q') {
       quit_loop();
     }
+
   }
 }
 

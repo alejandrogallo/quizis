@@ -1,7 +1,8 @@
-find_package(Curses REQUIRED)
-message("CURSES_INCLUDE_DIR "${CURSES_INCLUDE_DIR})
-
 include(ExternalProject)
+
+find_package(Curses REQUIRED)
+message("CURSES_INCLUDE_DIR ${CURSES_INCLUDE_DIR}")
+
 ExternalProject_Add(jsoncpp_project
 GIT_REPOSITORY    https://github.com/open-source-parsers/jsoncpp
 GIT_TAG           80bc776
@@ -14,3 +15,4 @@ INSTALL_COMMAND   make install
 TEST_COMMAND      ""
 )
 ExternalProject_Get_Property(jsoncpp_project SOURCE_DIR)
+add_dependencies(quizis jsoncpp_project)

@@ -5,6 +5,15 @@ add_executable(
   main.cxx
 )
 
+target_compile_options(quizis
+PUBLIC
+  -O0
+  -g
+  -Wall -Werror -Wextra
+  -std=c++14
+  -pedantic
+)
+
 target_link_libraries(quizis jsoncpp curses)
 
 target_include_directories(
@@ -14,3 +23,4 @@ target_include_directories(
   ${CMAKE_BINARY_DIR}/include
 )
 
+install(TARGETS quizis DESTINATION bin)
