@@ -9,11 +9,13 @@
 void
 quit_loop(){
   refresh();
+  clear();
+  endwin();
   exit(0);
 }
 
 void
-loop(Json::Value &root) {
+loop_curses(Json::Value &root) {
   initscr();
   curs_set(0);
   int key;
@@ -63,6 +65,8 @@ int main(int argc, char *argv[])
     exit(1);
   }
 
+  setlocale(LC_ALL, "");
+  //setlocale(LC_CTYPE,"C-UTF-8");
   std::string fileName(argv[1]);
   std::cout << "Reading input file " << fileName << std::endl;
   std::ifstream inputFileStream(fileName);
@@ -81,7 +85,7 @@ int main(int argc, char *argv[])
     exit(1);
   }
 
-  loop(root);
+  loop_curses(root);
 
   return 0;
 }

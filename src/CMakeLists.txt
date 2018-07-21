@@ -14,7 +14,7 @@ PUBLIC
   -pedantic
 )
 
-target_link_libraries(quizis jsoncpp curses)
+target_link_libraries(quizis jsoncpp ncursesw)
 
 target_include_directories(
   quizis
