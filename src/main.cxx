@@ -5,6 +5,7 @@
 #include <string>
 #include <experimental/random>
 #include <ncurses.h>
+#include <vector>
 
 void
 quit_loop(){
@@ -14,10 +15,26 @@ quit_loop(){
   exit(0);
 }
 
+class WordStatistic {
+public:
+  unsigned int easy;
+  unsigned int medium;
+  unsigned int difficult;
+
+  WordStatistic(){
+    easy = 0;
+    medium = 0;
+    difficult = 0;
+  }
+
+};
+
 void
 loop_curses(Json::Value &root) {
   initscr();
   curs_set(0);
+  std::vector<WordStatistic> statistics;
+  statistics.resize((int)root.size());
   int key;
   int knownCounter(0);
   int unknownCounter(0);
@@ -26,10 +43,19 @@ loop_curses(Json::Value &root) {
       std::experimental::randint(0, (int)root.size()-1)
     );
     //std::string wordName(root[index]["word"]);
+    int height;
+    int width;
+    getmaxyx(stdscr, height, width);
 
     move(0,0);
     clrtoeol();
-    printw("%s", root[index]["word"].asCString(), key);
+    printw(
+      "%s, (%d %d %d)",
+      root[index]["word"].asCString(),
+      statistics[index].easy,
+      statistics[index].medium,
+      statistics[index].difficult
+    );
 
     move(1,0);
     printw("\tK:%d\tU:%d", knownCounter, unknownCounter);
@@ -39,16 +65,24 @@ loop_curses(Json::Value &root) {
     move(2,0);
     clrtoeol();
 
-    if (key == (int)'j') {
+    if (key == (int)'h') {
       move(2,0);
       printw("%s", root[index]["value"].asCString());
       key = (int)'l';
+      getch();
+      for (int i(0) ; i < height-3 ; i++) {
+        move(2 + i, 0);
+        clrtoeol();
+      }
     }
-    if (key == (int)'h') {
-      unknownCounter++;
+    if (key == (int)'j') {
+      statistics[index].easy += 1;
+    }
+    if (key == (int)'k') {
+      statistics[index].medium += 1;
     }
     if (key == (int)'l') {
-      knownCounter++;
+      statistics[index].difficult += 1;
     }
     if (key == (int)'q') {
       quit_loop();

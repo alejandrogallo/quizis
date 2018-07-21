@@ -1,9 +1,11 @@
 [
+  {"word": "ספּהאסדפּَفسدفجع "
+    , "value": "blah"},
   {
-    "word": "hello",
+    "word": "асдфьшер уьhello",
     "value": "world"
   }, {
-    "word": "bye",
+    "word": "с дфуьишер ьопшре bye",
     "value": "adios\n world"
   }
 ]
