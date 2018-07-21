@@ -50,7 +50,7 @@ loop_curses(Json::Value &root) {
     move(0,0);
     clrtoeol();
     printw(
-      "%s, (%d %d %d)",
+      "%s (%d %d %d)",
       root[index]["word"].asCString(),
       statistics[index].easy,
       statistics[index].medium,
