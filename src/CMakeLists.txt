@@ -6,7 +6,7 @@ add_executable(
 )
 
 add_executable(
-  quizisgtk
+  quizis-gtk
   gtk/main.cxx
 )
 
@@ -19,7 +19,7 @@ PUBLIC
   -pedantic
 )
 
-target_compile_options(quizisgtk
+target_compile_options(quizis-gtk
 PUBLIC
   -O0
   -g
@@ -29,10 +29,10 @@ PUBLIC
 )
 
 target_link_libraries(quizis jsoncpp ncursesw)
-target_link_libraries(quizisgtk jsoncpp ${GTKMM_LIBRARIES})
+target_link_libraries(quizis-gtk jsoncpp ${GTKMM_LIBRARIES})
 
 target_include_directories(
-  quizisgtk
+  quizis-gtk
   PUBLIC
   ${GTKMM_INCLUDE_DIRS}
 )
@@ -45,4 +45,4 @@ target_include_directories(
 )
 
 install(TARGETS quizis DESTINATION bin)
-install(TARGETS quizisgtk DESTINATION bin)
+install(TARGETS quizis-gtk DESTINATION bin)
