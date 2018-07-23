@@ -3,6 +3,12 @@ include(ExternalProject)
 find_package(Curses REQUIRED)
 message("CURSES_INCLUDE_DIR ${CURSES_INCLUDE_DIR}")
 
+find_package(PkgConfig)
+pkg_check_modules(GTKMM gtkmm-3.0)
+message("GTKMM_LIBRARY_DIRS ${GTKMM_LIBRARY_DIRS}")
+message("GTKMM_LIBRARIES ${GTKMM_LIBRARIES}")
+message("GTKMM_INCLUDE_DIRS ${GTKMM_INCLUDE_DIRS}")
+
 ExternalProject_Add(jsoncpp_project
 GIT_REPOSITORY    https://github.com/open-source-parsers/jsoncpp
 GIT_TAG           80bc776
