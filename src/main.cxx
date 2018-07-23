@@ -3,7 +3,7 @@
 #include <sstream>
 #include <json/json.h>
 #include <string>
-#include <experimental/random>
+#include <cstdlib>
 #include <ncurses.h>
 #include <vector>
 
@@ -40,7 +40,7 @@ loop_curses(Json::Value &root) {
   int unknownCounter(0);
   while (true) {
     unsigned int index(
-      std::experimental::randint(0, (int)root.size()-1)
+      rand() % (int)root.size()
     );
     //std::string wordName(root[index]["word"]);
     int height;
