@@ -45,3 +45,4 @@ target_include_directories(
 )
 
 install(TARGETS quizis DESTINATION bin)
+install(TARGETS quizisgtk DESTINATION bin)
