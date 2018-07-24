@@ -11,10 +11,10 @@ public:
     set_default_size(200, 200);
     add(hbox);
 
-    Gtk::Button *button = new Gtk::Button("hello");
-    Gtk::Button *button2 = new Gtk::Button("world");
-    hbox.add(*button);
-    hbox.add(*button2);
+    auto *wordLabel = new Gtk::Label("");
+    auto *definitionLabel = new Gtk::Label("");
+    hbox.add(*wordLabel);
+    hbox.add(*definitionLabel);
 
     hbox.show_all();
 
