@@ -1,0 +1,371 @@
+[
+{    "word": "бежим",     "value": "flee\n"   }
+,
+{    "word": "безразличны",     "value": "indifferent\n"   }
+,
+{    "word": "белки",     "value": "proteins\n"   }
+,
+{    "word": "берегите",     "value": "keep\n"   }
+,
+{    "word": "бог",     "value": "creator\n"   }
+,
+{    "word": "боль",     "value": "pain\n"   }
+,
+{    "word": "большое",     "value": "large\n"   }
+,
+{    "word": "бросает",     "value": "throws\n"   }
+,
+{    "word": "быть",     "value": "be\n"   }
+,
+{    "word": "варианта",     "value": "option's\n"   }
+,
+{    "word": "ваши",     "value": "your\n"   }
+,
+{    "word": "вдруг",     "value": "suddenly\n"   }
+,
+{    "word": "великое",     "value": "great\n"   }
+,
+{    "word": "верит",     "value": "believes\n"   }
+,
+{    "word": "вечер",     "value": "evening\n"   }
+,
+{    "word": "виноват",     "value": "My fault\n"   }
+,
+{    "word": "во",     "value": "in\n"   }
+,
+{    "word": "возвращался",     "value": "returned\n"   }
+,
+{    "word": "все",     "value": "That's all\n"   }
+,
+{    "word": "всех",     "value": "everything\n"   }
+,
+{    "word": "вспомни",     "value": "remember\n"   }
+,
+{    "word": "встречи",     "value": "meetings\n"   }
+,
+{    "word": "всякому",     "value": "any\n"   }
+,
+{    "word": "второй",     "value": "second\n"   }
+,
+{    "word": "говорил",     "value": "said\n"   }
+,
+{    "word": "горе",     "value": "grief\n"   }
+,
+{    "word": "горящая",     "value": "burning\n"   }
+,
+{    "word": "громкие",     "value": "loud\n"   }
+,
+{    "word": "грязью",     "value": "dirt\n"   }
+,
+{    "word": "губит",     "value": "ruins\n"   }
+,
+{    "word": "дает",     "value": "gives\n"   }
+,
+{    "word": "дано",     "value": "given\n"   }
+,
+{    "word": "два",     "value": "two\n"   }
+,
+{    "word": "делал",     "value": "done\n"   }
+,
+{    "word": "для",     "value": "for\n"   }
+,
+{    "word": "дней",     "value": "days'\n"   }
+,
+{    "word": "дорог",     "value": "dorog\n"   }
+,
+{    "word": "душный",     "value": "stuffy\n"   }
+,
+{    "word": "ее",     "value": "her\n"   }
+,
+{    "word": "если",     "value": "if\n"   }
+,
+{    "word": "есть",     "value": "eat\n"   }
+,
+{    "word": "же",     "value": "as\n"   }
+,
+{    "word": "живы",     "value": "living\n"   }
+,
+{    "word": "живых",     "value": "living\n"   }
+,
+{    "word": "жизни",     "value": "lives\n"   }
+,
+{    "word": "жизнь",     "value": "life\n"   }
+,
+{    "word": "заботит",     "value": "cares\n"   }
+,
+{    "word": "замечая",     "value": "noticing\n"   }
+,
+{    "word": "замолкает",     "value": "silent\n"   }
+,
+{    "word": "застольных",     "value": "table\n"   }
+,
+{    "word": "здоровы?",     "value": "healthy?\n"   }
+,
+{    "word": "знаю",     "value": "I know\n"   }
+,
+{    "word": "им",     "value": "they\n"   }
+,
+{    "word": "именно",     "value": "exactly\n"   }
+,
+{    "word": "имея",     "value": "have\n"   }
+,
+{    "word": "инстаграмм",     "value": "instagram\n"   }
+,
+{    "word": "как",     "value": "as\n"   }
+,
+{    "word": "какая",     "value": "what\n"   }
+,
+{    "word": "карцер",     "value": "punishment cell\n"   }
+,
+{    "word": "когда",     "value": "when\n"   }
+,
+{    "word": "когдато",     "value": "once\n"   }
+,
+{    "word": "кого",     "value": "whom\n"   }
+,
+{    "word": "когото",     "value": "someone else\n"   }
+,
+{    "word": "колесе",     "value": "wheel\n"   }
+,
+{    "word": "колоться",     "value": "prick\n"   }
+,
+{    "word": "кому",     "value": "whom\n"   }
+,
+{    "word": "комуто",     "value": "anyone\n"   }
+,
+{    "word": "константе",     "value": "constant\n"   }
+,
+{    "word": "кончено",     "value": "goner\n"   }
+,
+{    "word": "копаться",     "value": "delve\n"   }
+,
+{    "word": "красках",     "value": "paints\n"   }
+,
+{    "word": "кто",     "value": "who\n"   }
+,
+{    "word": "люди",     "value": "people\n"   }
+,
+{    "word": "мало",     "value": "It's too small\n"   }
+,
+{    "word": "мешают",     "value": "prevent\n"   }
+,
+{    "word": "мразью",     "value": "crud\n"   }
+,
+{    "word": "мы",     "value": "we\n"   }
+,
+{    "word": "на",     "value": "on\n"   }
+,
+{    "word": "навеки",     "value": "forever\n"   }
+,
+{    "word": "навсегда",     "value": "forever\n"   }
+,
+{    "word": "нам",     "value": "us\n"   }
+,
+{    "word": "напоказ",     "value": "for show\n"   }
+,
+{    "word": "напоследок",     "value": "one last\n"   }
+,
+{    "word": "нас",     "value": "us\n"   }
+,
+{    "word": "наследству",     "value": "inheritance\n"   }
+,
+{    "word": "наши",     "value": "our\n"   }
+,
+{    "word": "не",     "value": "not\n"   }
+,
+{    "word": "нет",     "value": "No\n"   }
+,
+{    "word": "неужели",     "value": "really\n"   }
+,
+{    "word": "никто",     "value": "nobody\n"   }
+,
+{    "word": "ним",     "value": "nim\n"   }
+,
+{    "word": "ничто",     "value": "nothing\n"   }
+,
+{    "word": "но",     "value": "but\n"   }
+,
+{    "word": "ну",     "value": "well\n"   }
+,
+{    "word": "нужен",     "value": "necessary\n"   }
+,
+{    "word": "одна",     "value": "one\n"   }
+,
+{    "word": "она",     "value": "she\n"   }
+,
+{    "word": "они",     "value": "they\n"   }
+,
+{    "word": "оставь",     "value": "leave\n"   }
+,
+{    "word": "остыв",     "value": "cooled\n"   }
+,
+{    "word": "отмерено",     "value": "measured\n"   }
+,
+{    "word": "педантов",     "value": "pedants'\n"   }
+,
+{    "word": "первый",     "value": "initial\n"   }
+,
+{    "word": "переполняя",     "value": "overflowing\n"   }
+,
+{    "word": "по",     "value": "on\n"   }
+,
+{    "word": "повод?",     "value": "a reason?\n"   }
+,
+{    "word": "подняться",     "value": "warm up\n"   }
+,
+{    "word": "позвони",     "value": "call\n"   }
+,
+{    "word": "пойдет",     "value": "goes\n"   }
+,
+{    "word": "покое",     "value": "peace\n"   }
+,
+{    "word": "поливают",     "value": "water\n"   }
+,
+{    "word": "получив",     "value": "after receiving\n"   }
+,
+{    "word": "поможет",     "value": "helps\n"   }
+,
+{    "word": "понимаю",     "value": "I understand\n"   }
+,
+{    "word": "поняв",     "value": "having understood\n"   }
+,
+{    "word": "после",     "value": "after\n"   }
+,
+{    "word": "последствия",     "value": "aftermath\n"   }
+,
+{    "word": "поспоришь",     "value": "argue\n"   }
+,
+{    "word": "постил",     "value": "post\n"   }
+,
+{    "word": "потом",     "value": "then\n"   }
+,
+{    "word": "прав",     "value": "rights'\n"   }
+,
+{    "word": "при",     "value": "at\n"   }
+,
+{    "word": "привычки",     "value": "habits\n"   }
+,
+{    "word": "пригласи",     "value": "invite\n"   }
+,
+{    "word": "припев",     "value": "chorus\n"   }
+,
+{    "word": "природу",     "value": "nature\n"   }
+,
+{    "word": "приходить",     "value": "come\n"   }
+,
+{    "word": "прощание",     "value": "farewell\n"   }
+,
+{    "word": "пускай",     "value": "let\n"   }
+,
+{    "word": "пустота",     "value": "emptiness\n"   }
+,
+{    "word": "разница?",     "value": "the difference?\n"   }
+,
+{    "word": "разные",     "value": "different\n"   }
+,
+{    "word": "рвет",     "value": "tears\n"   }
+,
+{    "word": "рвутся",     "value": "tear\n"   }
+,
+{    "word": "речи",     "value": "speeches\n"   }
+,
+{    "word": "родимая",     "value": "darling\n"   }
+,
+{    "word": "рутине",     "value": "routine\n"   }
+,
+{    "word": "рыдают",     "value": "sob\n"   }
+,
+{    "word": "с",     "value": "with\n"   }
+,
+{    "word": "свеча",     "value": "candle\n"   }
+,
+{    "word": "свечи",     "value": "candles\n"   }
+,
+{    "word": "сводода",     "value": "archway\n"   }
+,
+{    "word": "свое",     "value": "its\n"   }
+,
+{    "word": "сегодня",     "value": "presently\n"   }
+,
+{    "word": "сейчас",     "value": "now\n"   }
+,
+{    "word": "сердце",     "value": "heart\n"   }
+,
+{    "word": "скажем",     "value": "say\n"   }
+,
+{    "word": "смыслах",     "value": "meanings\n"   }
+,
+{    "word": "[сонмом]",     "value": "[host]\n"   }
+,
+{    "word": "справится",     "value": "copes\n"   }
+,
+{    "word": "среди",     "value": "among\n"   }
+,
+{    "word": "ссоры",     "value": "quarrels\n"   }
+,
+{    "word": "стало",     "value": "become\n"   }
+,
+{    "word": "стать",     "value": "become\n"   }
+,
+{    "word": "страдая",     "value": "suffering\n"   }
+,
+{    "word": "струны",     "value": "strings\n"   }
+,
+{    "word": "так",     "value": "so\n"   }
+,
+{    "word": "там",     "value": "there\n"   }
+,
+{    "word": "твиттер",     "value": "Twitter\n"   }
+,
+{    "word": "твое",     "value": "your\n"   }
+,
+{    "word": "тебя",     "value": "you\n"   }
+,
+{    "word": "тем",     "value": "moreover\n"   }
+,
+{    "word": "тех",     "value": "the\n"   }
+,
+{    "word": "тостах",     "value": "toasts\n"   }
+,
+{    "word": "тупо",     "value": "blankly\n"   }
+,
+{    "word": "тут",     "value": "here\n"   }
+,
+{    "word": "ты",     "value": "you\n"   }
+,
+{    "word": "тяжкие",     "value": "heavy\n"   }
+,
+{    "word": "убивать",     "value": "kill\n"   }
+,
+{    "word": "уйдем",     "value": "escape\n"   }
+,
+{    "word": "упокойной",     "value": "the dead\n"   }
+,
+{    "word": "ухода",     "value": "maintenance's\n"   }
+,
+{    "word": "участие",     "value": "participation\n"   }
+,
+{    "word": "ушедшим",     "value": "gone\n"   }
+,
+{    "word": "ушедших",     "value": "gone\n"   }
+,
+{    "word": "фатальная",     "value": "fatal\n"   }
+,
+{    "word": "фортуны",     "value": "fortunes\n"   }
+,
+{    "word": "ходу",     "value": "course\n"   }
+,
+{    "word": "хоть",     "value": "though\n"   }
+,
+{    "word": "части",     "value": "parts\n"   }
+,
+{    "word": "черту",     "value": "trait\n"   }
+,
+{    "word": "что",     "value": "that\n"   }
+,
+{    "word": "чьито",     "value": "chiito.\n"   }
+,
+{    "word": "чьято",     "value": "chyato.\n"   }
+,
+{    "word": "этак",     "value": "so\n"   }
+]
